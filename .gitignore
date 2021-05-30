@@ -29,3 +29,5 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+gem "refile",require:"refile/reils",github:'manfe/refile'
+gem "refile-mini_magick"
