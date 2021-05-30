@@ -11,4 +11,8 @@ Rails.application.routes.draw do
   # 編集画面作成するためのアクション
   get 'todolists/:id/edit' => 'todolists#edit',as:'edit_todolist'
   
+  # updateアクションのルーティングを追加
+  pat 'todolists/:id' => 'todolists#update',as:'update_todolist'
+  
+  
 end
